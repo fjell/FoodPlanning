@@ -10,7 +10,7 @@ namespace FoodPlanning
 
             // Self defined CSS
             bundles.Add(new StyleBundle("~/bundles/css").Include(
-                        "~/Content/Styles/Styles.css"));
+                        "~/Content/Styles/Style.css"));
 
             // Framework JS
 
