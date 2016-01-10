@@ -105,6 +105,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Styles\Framework\Bootstrap\bootstrap.css" />
     <Content Include="Content\Styles\Style.css">
       <DependentUpon>Style.scss</DependentUpon>
     </Content>
@@ -112,6 +113,7 @@
       <DependentUpon>Style.css</DependentUpon>
     </Content>
     <Content Include="Global.asax" />
+    <Content Include="Scripts\Framework\Bootstrap\bootstrap.js" />
     <Content Include="Scripts\Script.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -144,9 +146,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\Styles\Framework\" />
     <Folder Include="Models\" />
-    <Folder Include="Scripts\Framework\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
