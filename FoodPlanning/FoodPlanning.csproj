@@ -105,7 +105,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Fonts\Framework\FontAwesome\fontawesome-webfont.svg" />
     <Content Include="Content\Styles\Framework\Bootstrap\bootstrap.css" />
+    <Content Include="Content\Styles\Framework\FontAwesome\font-awesome.css" />
     <Content Include="Content\Styles\Style.css">
       <DependentUpon>Style.scss</DependentUpon>
     </Content>
@@ -137,6 +139,12 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="Content\Fonts\Framework\FontAwesome\fontawesome-webfont.eot" />
+    <Content Include="Content\Fonts\Framework\FontAwesome\fontawesome-webfont.ttf" />
+    <Content Include="Content\Fonts\Framework\FontAwesome\fontawesome-webfont.woff" />
+    <Content Include="Content\Fonts\Framework\FontAwesome\fontawesome-webfont.woff2" />
+    <Content Include="Content\Fonts\Framework\FontAwesome\FontAwesome.otf" />
+    <None Include="Properties\PublishProfiles\local.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

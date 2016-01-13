@@ -8,7 +8,8 @@ namespace FoodPlanning
         {
             // Framework CSS
             bundles.Add(new StyleBundle("~/bundles/frameworkCss").Include(
-                        "~/Content/Styles/Framework/Bootstrap/bootstrap.css"));
+                        "~/Content/Styles/Framework/Bootstrap/bootstrap.css",
+                        "~/Content/Styles/Framework/FontAwesome/font-awesome.css"));
 
             // Self defined CSS
             bundles.Add(new StyleBundle("~/bundles/css").Include(
